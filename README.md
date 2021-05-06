@@ -16,16 +16,16 @@ CloudSim Plus is a modern, full-featured, highly extensible Java 8 framework for
 
 ### Prerequisites
 
-- Your workstation should have [Maven](https://maven.apache.org/) installed.
+- Your workstation should have [Gradle](https://gradle.org/) installed.
 
-### Steps to run the project via Maven
+### Steps to run the project via Gradle
 
 - Clone this private repository.
 - Open terminal and navigate to the path as the project directory's path.
 - Run the following command.
 
 ```
-mvn clean install
+gradle clean build
 ```
 
 #### Test Project
@@ -33,7 +33,7 @@ mvn clean install
 - Type the following command in the terminal to run the test cases.
 
 ```
-mvn test
+gradle test
 ```
 
 #### Run Project
@@ -41,13 +41,13 @@ mvn test
 - Type the following command in the terminal to run the project.
 
 ```
-mvn spring-boot:run
+gradle bootRun
 ```
 
 ### Steps to run the project via IntelliJ
 
 - Import the project directly into IntelliJ.
-- Let the project build via maven and install all the external libraries.
+- Let the project build via gradle and install all the external libraries.
 - Run the ProjectApplication file containing the `main()` method.
 - You will see the Spring Boot project running in the console.
 
