@@ -44,6 +44,11 @@ gradle test
 gradle bootRun
 ```
 
+### Video Demo 
+
+[![](Images/Thumbnail.png)](http://youtu.be/D6umgWxBQs8?hd=1)
+
+
 ### Steps to run the project via IntelliJ
 
 - Import the project directly into IntelliJ.
